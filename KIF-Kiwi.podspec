@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        * capture screenshots for failing tests
                        * share common setup using spec context
                        DESC
-  s.homepage         = 'https://github.com/IndieGoGo/KIF-Kiwi'
+  s.homepage         = 'https://github.com/ShantanuDutta/KIF-Kiwi'
   s.license          = 'MIT'
   s.authors           = {
       'Indiegogo' => 'tech+gogopair@indiegogo.com',
@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
       'Irvin Zhan' => 'irvintzhan@gmail.com'
   }
   s.source           = {
-      :git => 'https://github.com/IndieGoGo/KIF-Kiwi.git',
+      :git => 'https://github.com/ShantanuDutta/KIF-Kiwi.git',
       :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/IndieGoGo'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
